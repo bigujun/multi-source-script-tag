@@ -1,4 +1,6 @@
-function getScriptBaseUrl(){
+/** bigujun - 2021 */
+
+function getScriptOrigin(){
     const scriptSrc = document.currentScript.getAttribute('src')
     try{
         const url = new URL(scriptSrc)
@@ -8,4 +10,4 @@ function getScriptBaseUrl(){
     }
 }
 
-alert('Hello from ' + getScriptBaseUrl())
+alert('Hello from ' + getScriptOrigin())

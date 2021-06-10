@@ -1,4 +1,6 @@
 'use strict'
+/** bigujun - 2021 */
+
 /**
  * Create a `<script>` tags based on urls, if occur an error appends next from the list
  * @param {string[]} urls 

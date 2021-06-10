@@ -1,3 +1,4 @@
+<!-- bigujun - 2021 -->
 # Multi Source Script
 
 This is an example of how to retry loading some script file from multiple sources, in case some of the hosts go down.
@@ -14,7 +15,7 @@ Download the file [multisrc.js](multisrc.js) to your project.
 
 
 ### Option A - Pass urls by attribute
- Just add atributes to the script tag starting with `try`, loads will occur in alphabetical order of attribute name.
+ Just add atributes to the script tag starting with `src`, loads will occur in alphabetical order of attribute name.
 
 ```html
     <script src="multisrc.js" 
