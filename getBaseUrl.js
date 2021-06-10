@@ -8,4 +8,4 @@ function getScriptBaseUrl(){
     }
 }
 
-alert('Pulled from ' + getScriptBaseUrl())
+alert('Hello from ' + getScriptBaseUrl())
